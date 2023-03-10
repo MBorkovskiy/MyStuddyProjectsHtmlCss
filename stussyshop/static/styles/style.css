@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #031624;
+    color: white;
+    font-size: 18px;
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+
+.page h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 237px;
+    text-align: center;
+    margin: 0px;
+}
+.page h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 115px;
+}
+
+/* Header */
+.logo {
+    width: 49px;
+    height: 45px;
+}
+.burger {
+    top: 33px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #031624;
+    display: none;
+    
+}
+
+@media (max-width:1000px) {
+    .burger {
+        display: block;
+    }
+    .left> ul {
+        display: none;
+    }
+    .block-2 {
+        display: none;
+    }
+    .block-1 {
+
+        width: 709px;
+    }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-right: 30px;
+}
+
+ul>li {
+    margin-right: 30px;
+    padding: 10px;
+}
+
+
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    width: 1440px;
+    align-items: center;
+}
+
+
+
+
+.devider {
+    color: #354856;
+    border-style: solid;
+    border-width: 0.1px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-item {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    font-size: 12px;
+    color: #677A88;
+}
+
+/* content */
+.first-img {
+    height: 712px;
+    width: 1440px;
+}
+
+.text-button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-button>p {
+    width: 709px;
+    margin: 0px;
+}
+
+.button-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: white;
+    color: #031624;
+    height: 55px;
+    width: 345px;
+}
+
+.button-1>p {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blocks {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.block-1 {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.head {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.content>img {
+
+    height: 300px;
+    width: 345px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.block-2>img {
+    height: 718px;
+    width: 710px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons>.button-left,
+.button-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-width: 0.5px;
+    border-style: solid;
+    height: 55px;
+    width: 345px;
+}
+
+/* SALES */
+.text-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt {
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-345 {
+    width: 345px;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.like {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+   background-color: white;
+}
+
+.sale-card {
+    position: relative;
+    margin-bottom: 15px;
+}
+.sale-card>img {
+    
+    width: 345px;
+    height: 370px;
+}
+.icons {
+    top: 15px;
+    position: absolute;
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+}
+.bold-red {
+    color: red;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.two-p {
+    display: flex;
+}
+.bold-redd {
+    color: red;
+    font-weight: bold; 
+    margin-right: 5px;
+}
+.light-slash {
+    color: #354856;
+}
+.card-description {
+    margin-bottom: 5px;
+}
+
+.full-cards {
+    display: flex;
+    justify-content: space-between;
+}
